@@ -5,8 +5,8 @@ from models import User, Task
 # Data to initalise database with
 USER = [
         {"username": "Will", "password": "1234"},
-        {"username": "Sara", "password": "1248"},
-        {"username": "Eliza", "password": "5678"}
+        {"username": "ABC", "password": "1248"},
+        {"username": "XYZ", "password": "5678"}
 ]
 
 TASK = [
