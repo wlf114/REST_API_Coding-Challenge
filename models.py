@@ -14,7 +14,6 @@ class Task(db.Model):
     description = db.Column(db.Text)
     archive = db.Column(db.Boolean)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-    #user = db.relationship("User", back_populates = "task")
 
 class UserSchema(ma.ModelSchema):
     class Meta:
