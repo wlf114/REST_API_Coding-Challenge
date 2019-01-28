@@ -78,7 +78,7 @@ The programming language python was chosen due to the extensive number of depend
 
 The Flask micro-framewok allows for the initialisation of local server with little to no setup and allows for the delivery of HTTP methods. It also supports a JSON-based data-interchange format.
 
-SQLAlchemy provides an Object Relational Model (ORM), which stores Python objects to a database representation and allows for a multi-user environment.
+SQLAlchemy provides an Object Relational Model (ORM), which stores Python objects to a database representation and allows for a multi-user environment. It also has tie-in with the Flask framework, hence no addtional setups are required.
 
 Marshmallow provides functionality to serialise and deserialise Python objects as they flow out of and into the JSON-based REST API.
 
