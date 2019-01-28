@@ -131,7 +131,7 @@ def create_task():
 @app.route('/api/tasks/edit/<int:task_id>', methods=['PUT'])
 def update_task(task_id):
     """
-    This funciton iterate through the data structure and finds the 
+    This funciton finds the 
     task in query. Once found, the old task will be updated with the new
     information.
     
@@ -173,7 +173,7 @@ def update_task(task_id):
 @app.route('/api/tasks/delete/<int:task_id>', methods=['DELETE'])
 def delete_task(task_id):
     """
-    Iterate through the data structure, identify the task and deletes the task.
+    Identify the task and deletes the task.
     
     return: True
     """
