@@ -16,7 +16,7 @@ Once all the dependencies have been installed, the following command can be runn
 ```
 python app.py
 ```
-This should initialise a server at `http://localhost:5000`, since no `.html` have been created to support the API. To run the function located in the `app.py`, we have to invoke `curl` within the terminal to call up these funtions.
+This should initialise a server at `http://localhost:5000`, since no `.html` have been created to support the API. To run the function located in the `app.py`, we have to invoke `curl` within the terminal to gain access to these funtions.
 
 ## The Data Structure
 The models of the database can be found within the `models.py` file. Two models have been defined and they are `User` and `Task`, where `Task` is a child of `User`.
